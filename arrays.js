@@ -19,5 +19,5 @@ function removeElementFromEndOfArray(arr)
 {
 let temp = arr;
 temp.slice(-1);
-return temp;  
+return temp;
 }
