@@ -1,4 +1,4 @@
-function removeElementFromBeginningOfArray(arr, element)
+function removeElementFromBeginningOfArray(arr)
 {
   let temp = arr;
   temp.slice(1);
@@ -18,7 +18,7 @@ function destructivelyRemoveElementFromEndOfArray(arr)
 function removeElementFromEndOfArray(arr)
 {
 let temp = arr;
-temp.slice(-1);
+temp.pop();
 return temp;
 }
 
@@ -44,4 +44,9 @@ function destructivelyAddElementToEndOfArray(arr, element)
 {
   arr.push(element);
   return arr;
+}
+
+function accessElementInArray(arr, index)
+{
+  return arr[index];
 }
