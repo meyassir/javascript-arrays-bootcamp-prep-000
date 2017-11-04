@@ -1,4 +1,4 @@
-function removeElementFromBeginningOfArray(const arr)
+function removeElementFromBeginningOfArray(arr)
 {
   let temp = arr;
   temp.shift();
