@@ -1,8 +1,8 @@
 function removeElementFromBeginningOfArray(arr)
 {
   let temp = arr;
-  //temp.shift();
-  return temp;
+  temp.shift();
+  return arr;
 }
 function destructivelyRemoveElementFromBeginningOfArray(arr)
 {
@@ -18,8 +18,8 @@ function destructivelyRemoveElementFromEndOfArray(arr)
 function removeElementFromEndOfArray(arr)
 {
 let temp = arr;
-//temp.pop();
-return temp;
+temp.pop();
+return arr;
 }
 
 function addElementToBeginningOfArray(arr, element)
