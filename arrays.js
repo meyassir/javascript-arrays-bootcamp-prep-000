@@ -1,7 +1,7 @@
 function removeElementFromBeginningOfArray(arr)
 {
   let temp = arr;
-  temp.shift();
+  //temp.shift();
   return temp;
 }
 function destructivelyRemoveElementFromBeginningOfArray(arr)
