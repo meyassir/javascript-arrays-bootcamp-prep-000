@@ -48,4 +48,3 @@ function accessElementInArray(arr, index)
 {
   return arr[index];
 }
-
