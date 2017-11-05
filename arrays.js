@@ -49,4 +49,3 @@ function accessElementInArray(arr, index)
   return arr[index];
 }
 
-let chocolateBars = new array();
