@@ -15,7 +15,7 @@ function destructivelyRemoveElementFromEndOfArray(arr)
 
 function removeElementFromEndOfArray(arr)
 {
-    let temp = arr.splice(arr.length, 1);
+    let temp = arr.splice(3, 1);
     return temp;
 }
 
