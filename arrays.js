@@ -1,7 +1,7 @@
 function removeElementFromBeginningOfArray(arr)
 {
   let temp = arr;
-  //temp.shift();
+  temp.shift();
   return arr;
 }
 function destructivelyRemoveElementFromBeginningOfArray(arr)
@@ -18,7 +18,7 @@ function destructivelyRemoveElementFromEndOfArray(arr)
 function removeElementFromEndOfArray(arr)
 {
 let temp = arr;
-//temp.pop();
+temp.pop();
 return arr;
 }
 
