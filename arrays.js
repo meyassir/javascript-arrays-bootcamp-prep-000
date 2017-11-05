@@ -1,4 +1,4 @@
-let chocolateBars = ['snickers', 'hundred grand', 'kitkat', 'skittles'];
+chocolateBars = ['snickers', 'hundred grand', 'kitkat', 'skittles'];
 function removeElementFromBeginningOfArray(arr)
 {
   let temp = arr.slice( 1, arr.length);
