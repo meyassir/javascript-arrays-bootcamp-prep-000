@@ -17,7 +17,8 @@ function destructivelyRemoveElementFromEndOfArray(arr)
 
 function removeElementFromEndOfArray(arr)
 {
-let temp = [...arr];
+  let pff = arr;
+let temp = pff;
 temp.pop();
 return arr;
 }
