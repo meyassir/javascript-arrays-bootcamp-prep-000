@@ -1,6 +1,7 @@
 function removeElementFromBeginningOfArray(arr)
 {
-
+  let temp = arr.slice( 1, arr.length);
+  return temp;
 }
 function destructivelyRemoveElementFromBeginningOfArray(arr)
 {
