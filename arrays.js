@@ -1,6 +1,6 @@
 function removeElementFromBeginningOfArray(arr)
 {
-  
+
 }
 function destructivelyRemoveElementFromBeginningOfArray(arr)
 {
