@@ -49,4 +49,4 @@ function accessElementInArray(arr, index)
   return arr[index];
 }
 
-let chocolateBars = ["snickers", "hundred grand", "kitkat", "skittles"];
+let chocolateBars = new array();
